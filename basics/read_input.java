@@ -5,7 +5,7 @@ class ReadInput {
         Scanner sc = new Scanner(System.in);
 
         int num = sc.nextInt();
-        sc.nextLine();  // removes leftover newline
+        sc.nextLine();  
         String str = sc.nextLine();
 
         System.out.println("Number = " + num);
